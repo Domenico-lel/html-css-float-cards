@@ -1,0 +1,12 @@
+#contenitore, h2{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+h2{
+    color: rgb(255, 0, 119);
+    font-family: Verdana, Tahoma, sans-serif;
+    padding-bottom: 15px;
+    padding-top: 9px;
+}
