@@ -1,12 +1,12 @@
-#contenitore, h2{
+#contenitore, h1{
     text-align: center;
     width: 80%;
     margin: auto;
 }
 
-h2{
+h1{
     color: rgb(255, 0, 119);
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: 'Fredoka', sans-serif; 
     padding-bottom: 15px;
     padding-top: 9px;
 }
