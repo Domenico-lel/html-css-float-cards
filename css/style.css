@@ -1,6 +1,10 @@
-#contenitore-top, h1{
+*{
+    box-sizing: border-box;
+}
+
+#contenitore-top, h1, .col{
     text-align: center;
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -11,11 +15,16 @@ h1{
     padding-top: 9px;
 }
 
-/*.luca img{
+.col img{
     height: 100px;
     float: left;
     margin-right: 10px;
-}*/
+}
+
+.row{
+    width: 70%;
+    margin: auto;
+}
 
 .row::after{
     content: "";
@@ -25,7 +34,11 @@ h1{
 
 .col{
     float: left;
-    border: solid 1px #000;
-    min-height: 200px;
-    width: calc(100 / 3);
+    min-height: 65px;
+    width: calc((100% / 3) - 13px);
+    height: auto;
+    margin-right: 13px;
+    margin-bottom: 27px;
+    border: solid 1px black;
 }
+
