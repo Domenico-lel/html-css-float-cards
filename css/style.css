@@ -1,4 +1,4 @@
-#contenitore, h1{
+#contenitore-top, h1{
     text-align: center;
     width: 80%;
     margin: auto;
@@ -9,4 +9,23 @@ h1{
     font-family: 'Fredoka', sans-serif; 
     padding-bottom: 15px;
     padding-top: 9px;
+}
+
+/*.luca img{
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}*/
+
+.row::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.col{
+    float: left;
+    border: solid 1px #000;
+    min-height: 200px;
+    width: calc(100 / 3);
 }
